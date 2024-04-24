@@ -1,0 +1,29 @@
+<!-- Notice how we have used "semantic HTML" here -->
+<!-- Re-read the lesson if you don't understand what that means -->
+<!-- https://www.zachgollwitzer.com/posts/2021/fullstack-developer-series/7-html-crash-course-->
+<html>
+<head>
+<title>Todo-list</title>
+<link href="./style.css" rel="stylesheet"> 
+</head>
+  <body>
+   <main>
+  <section class="sec">
+    <div class="todo">
+      <h1>Todo-List <img src="https://cdn.icon-icons.com/icons2/2621/PNG/512/gui_todo_list_icon_156997.png" alt="icon"></h1>
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Add your text">
+        <button onclick="AddTask()">Add</button>
+      </div>
+      <div>
+        <ul id="list">
+
+        </ul>
+      </div>
+    </div>
+ 
+  </section> 
+</main>
+ <script src="./index.js"></script>
+</body>
+</html>
